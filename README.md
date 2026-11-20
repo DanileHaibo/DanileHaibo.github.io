@@ -1,6 +1,6 @@
 # Haibo Hu · Academic Homepage
 
-Personal academic website for **Haibo Hu**, based on [luost26/academic-homepage](https://github.com/luost26/academic-homepage) (same template family as [laiyao1.me](https://laiyao1.me/)).
+Personal academic website for **Haibo Hu**
 
 ## Local preview
 
