@@ -9,40 +9,22 @@ positions:
   title: Ph.D. Student
 
 
-email: "lakerhb@foxmail.com"
-# secondary_email: "haibohu2-c@my.cityu.edu.hk"
-cv_link: /assets/files/cv.pdf
+email: "haibohu2-c@my.cityu.edu.hk"
 github: DanileHaibo
-# gscholar:
+gscholar: jiPQ5jQAAAAJ
 # semantic_scholar:
 # linkedin:
 # orcid:
 
 short_bio: >-
   <p>
-    I am a Ph.D. student in the <a href="https://www.cs.cityu.edu.hk/">Department of Computer Science</a> at the <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a>, advised by <a href="https://www.cs.cityu.edu.hk/~jasonxue/">Prof. Chun Jason Xue</a> and <a href="https://www.cs.cityu.edu.hk/~jianwang/">Prof. Jianping Wang</a>.
+    I am a Ph.D. student in the <a href="https://www.cs.cityu.edu.hk/">Department of Computer Science</a> at the <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a>, advised by <a href="https://www.cs.cityu.edu.hk/~jasonxue/">Prof. Chun Jason Xue</a> (IEEE Fellow) and <a href="https://www.cs.cityu.edu.hk/~jianwang/">Prof. Jianping Wang</a> (IEEE Fellow).
     My research focuses on <strong>Autonomous Driving</strong>, <strong>Vision-Language-Action (VLA)</strong>, and <strong>World Models</strong>, with a particular interest in making large multimodal models efficient and reliable for real-time on-vehicle deployment.
-    Before my Ph.D., I received my Master's degree in Software Engineering from the <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China</a> (UESTC), and my Bachelor's degree in Software Engineering from the <a href="https://english.cqupt.edu.cn/">Chongqing University of Posts and Telecommunications</a> (CQUPT).
+    Before my Ph.D., I received my Master's degree in Software Engineering from the <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China</a> (UESTC).
     I previously worked as a Senior Engineer at <a href="https://www.bytedance.com/">ByteDance</a> (TikTok Content Security) and as a Development Engineer at <a href="https://www.alibaba.com/">Alibaba</a> (Cainiao).
   </p>
 
 portrait_url: /assets/images/photos/profile.jpg
-
-education:
-- name: City University of Hong Kong
-  logo: /assets/images/badges/cityu.png
-  position: Ph.D. Student in Computer Science
-  date: 2023 - Present
-
-- name: University of Electronic Science and Technology of China
-  logo: /assets/images/badges/uestc.png
-  position: M.Eng. in Software Engineering
-  date: 2016 - 2019
-
-- name: Chongqing University of Posts and Telecommunications
-  logo: /assets/images/badges/cqupt.png
-  position: B.Eng. in Software Engineering
-  date: 2012 - 2016
 
 experience:
 - name: City University of Hong Kong
@@ -65,11 +47,27 @@ experience:
 
 
 awards:
-- name: Gold Medal, 51st International Exhibition of Inventions Geneva
+- title: Gold Medal
+  rank: gold
+  name: 51st International Exhibition of Inventions Geneva
+  detail: Integrated virtual-physical AV safety testing platform
   date: 2026
-- name: 1st Place, Waymo Open Dataset Interaction Prediction Challenge (Parallel ModeSeq)
+  url: https://www.cityu.edu.hk/en/media/news/2026/03/16/ieig2026
+- title: 1st Place
+  rank: champion
+  name: Waymo Interaction Prediction Challenge
+  detail: Team Parallel ModeSeq · Top-tier AD competition
   date: 2025
-- name: 1st Place, Waymo Open Dataset Sim Agents Challenge (BehaviorGPT)
+  url: https://cvpr2025.wad.vision/
+- title: 1st Place
+  rank: champion
+  name: Waymo Sim Agents Challenge
+  detail: Team BehaviorGPT · Top-tier AD competition
   date: 2024
-- name: 1st Place, Grand Prix Metaverse Autonomous Driving Challenge
+  url: https://cvpr2024.wad.vision/
+- title: 1st Place
+  rank: champion
+  name: Grand Prix Metaverse AD Challenge
+  detail: Metaverse autonomous driving championship
   date: 2023
+  url: https://www.cs.cityu.edu.hk/~jianwang/news/grand-prix-metaverse/index.html

@@ -4,7 +4,7 @@
 {%- comment -%} CCF rank: use front-matter `ccf` if set, otherwise infer from venue {%- endcomment -%}
 {% assign ccf = item.ccf %}
 {% unless ccf %}
-  {% assign ccf_a_venues = "AAAI,NeurIPS,NIPS,ACL,CVPR,ICCV,ICML,IJCAI,MM,KDD,SIGGRAPH,TCAD,DAC,ICCAD,MICRO,ISCA,HPCA,TPAMI" | split: "," %}
+  {% assign ccf_a_venues = "AAAI,NeurIPS,NIPS,ACL,CVPR,ICCV,ICML,ICLR,IJCAI,MM,KDD,SIGGRAPH,TCAD,DAC,ICCAD,MICRO,ISCA,HPCA,TPAMI,CCS" | split: "," %}
   {% assign ccf_b_venues = "ECAI,EMNLP,COLING,ICME,ICPR,DATE,ASP-DAC,ICCD,GLSVLSI" | split: "," %}
   {% if ccf_a_venues contains item.venue %}{% assign ccf = "A" %}
   {% elsif ccf_b_venues contains item.venue %}{% assign ccf = "B" %}{% endif %}

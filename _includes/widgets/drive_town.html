@@ -1,0 +1,16 @@
+<section id="drive-town" class="drive-town" aria-label="An interactive town of autonomous driving research">
+  <div class="ct-heading">
+    <h2 class="ct-title"><i class="fas fa-car" aria-hidden="true"></i> Drive Town</h2>
+    <button type="button" class="ct-motion" aria-pressed="false">Pause animation</button>
+  </div>
+  <div class="ct-content">
+    <div class="ct-stage">
+      <img class="ct-fallback" src="{{ '/assets/images/drive-town.png' | relative_url }}" alt="Pixel art drive town: perception, VLA, world models, edge deployment, safety, sim-to-real, and road testing." width="1024" height="620">
+      <canvas width="1024" height="620" role="img" aria-label="Follow one driving stack as a delivery truck carries it from perception and VLA into world modeling, safety hardening, sim-to-real transfer, and road validation. Each workshop receives, processes, and hands off the same pipeline."></canvas>
+      <div class="ct-hotspots" aria-label="Research buildings"></div>
+    </div>
+    <div class="ct-tooltip" hidden role="region" aria-label="Selected research building"></div>
+  </div>
+  <div class="ct-mobile-stations" aria-label="Explore the research buildings"></div>
+  <noscript><p>Perception: Nav-EE and GM-Skip. VLA: RIDE. World models: BehaviorGPT and ModeSeq. Edge: RAEE and On-Demand Sparsity. Safety: Map Attack. Sim2Real: RALAD. Road test: Waymo Challenges and Geneva Gold Medal.</p></noscript>
+</section>
