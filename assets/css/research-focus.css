@@ -1,0 +1,117 @@
+.research-focus {
+  margin: 0 0 1.25rem;
+  padding: 1.25rem 1.35rem 1.4rem;
+  background: linear-gradient(165deg, #f7fafc 0%, #eef4fb 48%, #f8fafc 100%);
+  border: 1px solid #e3ebf3;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.rf-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.55rem;
+}
+
+.rf-title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1f2a37;
+}
+
+.rf-title i {
+  margin-right: 0.4rem;
+  color: #2c5aa0;
+}
+
+.rf-intro {
+  margin: 0 0 1rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.rf-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.rf-card {
+  padding: 0.95rem 1rem;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #e5edf5;
+  border-radius: 0.85rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.rf-card:hover {
+  transform: translateY(-2px);
+  border-color: #c9daf0;
+  box-shadow: 0 8px 20px rgba(44, 90, 160, 0.08);
+}
+
+.rf-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.45rem;
+  border-radius: 0.55rem;
+  background: #e8f0fb;
+  color: #2c5aa0;
+}
+
+.rf-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1f2a37;
+}
+
+.rf-card p {
+  margin: 0 0 0.65rem;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: #5b6572;
+}
+
+.rf-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.rf-tags span {
+  display: inline-block;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  background: #edf3fb;
+  color: #2c5aa0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 767.98px) {
+  .research-focus {
+    padding: 1rem;
+  }
+
+  .rf-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rf-card {
+    transition: none;
+  }
+
+  .rf-card:hover {
+    transform: none;
+  }
+}

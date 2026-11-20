@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-11-20T05:36:54.079Z",
+  "total_citations": 531,
+  "papers": [
+    {
+      "id": "2026-pub-2",
+      "title": "LithoGRPO: Fast Inverse Lithography via GRPO Reinforced Flow Matching",
+      "citations": 0,
+      "semantic_scholar": {
+        "paper_id": "cb651f2c1834688f4d2c8c89ed5fe67fe194a007",
+        "external_ids": {
+          "DBLP": "journals/corr/abs-2606-00228",
+          "ArXiv": "2606.00228",
+          "DOI": "10.48550/arXiv.2606.00228",
+          "CorpusId": 288855048
+        }
+      }
+    },
+    {
+      "id": "2026-pub-1",
+      "title": "AnalogCoder-Pro: Unifying Analog Circuit Generation and Optimization via Multi-modal LLMs",
+      "citations": 41,
+      "semantic_scholar": {
+        "paper_id": "613a987b8e8440693c30747479737abd3c2dfaa1",
+        "external_ids": {
+          "DBLP": "journals/corr/abs-2508-02518",
+          "ArXiv": "2508.02518",
+          "DOI": "10.1109/TCAD.2026.3673493",
+          "CorpusId": 280422637
+        }
+      }
+    },
+    {
+      "id": "2025-pub-2",
+      "title": "FUDOKI: Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities",
+      "citations": 52,
+      "semantic_scholar": {
+        "paper_id": "17fdf94362b3ae856f67edafd6a8532dc87642ee",
+        "external_ids": {
+          "ArXiv": "2505.20147",
+          "DBLP": "journals/corr/abs-2505-20147",
+          "DOI": "10.48550/arXiv.2505.20147",
+          "CorpusId": 278911369
+        }
+      }
+    },
+    {
+      "id": "2025-pub-1",
+      "title": "AnalogCoder: Analog Circuit Design via Training-Free Code Generation",
+      "citations": 196,
+      "semantic_scholar": {
+        "paper_id": "bcfd6404ad1c913b915d1f7731d3bc69564d98e7",
+        "external_ids": {
+          "ArXiv": "2405.14918",
+          "DBLP": "conf/aaai/LaiLCPHP025",
+          "DOI": "10.48550/arXiv.2405.14918",
+          "CorpusId": 270045319
+        }
+      }
+    },
+    {
+      "id": "2024-pub-1",
+      "title": "Scalable and Effective Arithmetic Tree Generation for Adder and Multiplier Designs",
+      "citations": 14,
+      "semantic_scholar": {
+        "paper_id": "fb350778b51672b1ac9f36a40c9efbdf746e35d5",
+        "external_ids": {
+          "ArXiv": "2405.06758",
+          "DBLP": "conf/nips/LaiLPL24",
+          "DOI": "10.48550/arXiv.2405.06758",
+          "CorpusId": 269757451
+        }
+      }
+    },
+    {
+      "id": "2023-pub-1",
+      "title": "ChiPFormer: Transferable Chip Placement via Offline Decision Transformer",
+      "citations": 99,
+      "semantic_scholar": {
+        "paper_id": "4a810f17843145195d73d5c63dc0f1477ba9cafc",
+        "external_ids": {
+          "ArXiv": "2306.14744",
+          "DBLP": "journals/corr/abs-2306-14744",
+          "DOI": "10.48550/arXiv.2306.14744",
+          "CorpusId": 259251800
+        }
+      }
+    },
+    {
+      "id": "2022-pub-1",
+      "title": "MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning",
+      "citations": 122,
+      "semantic_scholar": {
+        "paper_id": "938c988ce314c6cd64b5b860daa9923f10d2709c",
+        "external_ids": {
+          "DBLP": "conf/nips/LaiM022",
+          "ArXiv": "2211.13382",
+          "DOI": "10.48550/arXiv.2211.13382",
+          "CorpusId": 254017801
+        }
+      }
+    },
+    {
+      "id": "2020-pub-1",
+      "title": "OpenSMax: Unknown Domain Generation Algorithm Detection",
+      "citations": 7,
+      "semantic_scholar": {
+        "paper_id": "57fbaaf670bd4a098b6e5ad62bf5f8e0e0eaf4ad",
+        "external_ids": {
+          "DBLP": "conf/ecai/LaiPWLY20",
+          "MAG": "3090249537",
+          "DOI": "10.3233/FAIA200301",
+          "CorpusId": 221714538
+        }
+      }
+    }
+  ]
+}

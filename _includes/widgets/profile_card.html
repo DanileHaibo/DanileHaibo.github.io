@@ -1,0 +1,46 @@
+<div class="card border-0 shadow-sm bg-white rounded-xl profile-card">
+    {% if site.data.profile.portrait_url %}
+    <img class="profile-portrait" src="{{ site.data.profile.portrait_url | relative_url }}" alt="Portrait of {{ site.data.profile.primary_name }}">
+    {% endif %}
+    <div class="profile-card-heading">
+        <h1 class="profile-name">{{ site.data.profile.primary_name }}{% if site.data.profile.secondary_name != "" %} <small>{{ site.data.profile.secondary_name }}</small>{% endif %}</h1>
+        {% for position in site.data.profile.positions %}
+        <div class="profile-affiliation">
+            {% if position.title %}<div>{{ position.title }}</div>{% endif %}
+            <div>{% if position.logo %}<img src="{{ position.logo | relative_url }}" alt="" class="inline-badge" aria-hidden="true">{% endif %}{{ position.name }}</div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="profile-contacts">
+        {% if site.data.profile.email %}
+        <a class="profile-email email-text" href="mailto:{{ site.data.profile.email | encode_email }}">{{ site.data.profile.email | escape }}</a>
+        {% endif %}
+        {% if site.data.profile.secondary_email %}
+        <a class="profile-email email-text" href="mailto:{{ site.data.profile.secondary_email | encode_email }}">{{ site.data.profile.secondary_email | escape }}</a>
+        {% endif %}
+        {% if site.data.profile.cv_link %}
+        <a class="no-break" href="{{ site.data.profile.cv_link | relative_url }}?v={{ site.time | date: '%s' }}" target="_blank" rel="noopener noreferrer" aria-label="Curriculum Vitae"><i class="fas fa-file-alt" aria-hidden="true"></i> CV</a>
+        {% endif %}
+    </div>
+    {% include widgets/profile_links.html %}
+</div>
+
+{% if site.data.profile.wechat_qrcode %}
+<div class="modal fade" id="modal-wechat" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <img src="{{ site.data.profile.wechat_qrcode }}" class="img-fluid">
+            </div>
+            {% if site.data.profile.wechat_prompt %}
+            <div class="modal-body p-1">
+                {{ site.data.profile.wechat_prompt }}
+            </div>
+            {% endif %}
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
