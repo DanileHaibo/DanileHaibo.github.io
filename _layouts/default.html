@@ -4,7 +4,50 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }}{% if site.data.profile.navbar_name != "" and page.title != site.data.profile.navbar_name %} - {{ site.data.profile.navbar_name }}{% endif %}</title>
+    {% assign page_title = page.title %}
+    {% if site.data.profile.navbar_name != "" and page.title != site.data.profile.navbar_name %}
+      {% assign page_title = page.title | append: " - " | append: site.data.profile.navbar_name %}
+    {% endif %}
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ site.description | strip_html | strip_newlines | truncate: 160 }}">
+    <meta name="author" content="{{ site.data.profile.primary_name }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:description" content="{{ site.description | strip_html | strip_newlines | truncate: 160 }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page_title }}">
+    <meta name="twitter:description" content="{{ site.description | strip_html | strip_newlines | truncate: 160 }}">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.data.profile.primary_name }}",
+      "alternateName": {{ site.data.profile.secondary_name | jsonify }},
+      "url": "{{ '/' | absolute_url }}",
+      "image": "{{ site.data.profile.portrait_url | absolute_url }}",
+      "email": "{{ site.data.profile.email }}",
+      "jobTitle": "Ph.D. Student",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "City University of Hong Kong"
+      },
+      "sameAs": [
+        "https://github.com/{{ site.data.profile.github }}",
+        "https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en"
+      ],
+      "knowsAbout": [
+        "Autonomous Driving",
+        "Vision-Language-Action",
+        "World Models",
+        "Efficient Inference"
+      ]
+    }
+    </script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />

@@ -13,12 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+url: "https://danilehaibo.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
+title: "Haibo Hu"
+description: >-
+  Haibo Hu (胡海波) is a Ph.D. student at City University of Hong Kong,
+  researching Autonomous Driving, Vision-Language-Action (VLA), and World Models.
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-email-protect
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
