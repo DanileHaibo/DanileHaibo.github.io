@@ -1,5 +1,68 @@
 {
-  "generated_at": "2026-11-20T00:00:00.000Z",
-  "total_citations": 0,
-  "papers": []
+  "generated_at": "2026-11-21T06:43:44.809Z",
+  "total_citations": 75,
+  "papers": [
+    {
+      "id": "2026-sparsity",
+      "title": "On-Demand Multi-Task Sparsity for Efficient Large-Model Deployment on Edge Devices",
+      "citations": null,
+      "semantic_scholar": null
+    },
+    {
+      "id": "2026-ride",
+      "title": "RIDE: Runtime-Adaptive Inference Depth for Efficient VLA in Autonomous Driving",
+      "citations": null,
+      "semantic_scholar": null
+    },
+    {
+      "id": "2026-raee",
+      "title": "RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference",
+      "citations": null,
+      "semantic_scholar": null
+    },
+    {
+      "id": "2026-nav-ee",
+      "title": "Nav-EE: Navigation-Guided Early Exiting for Efficient Vision-Language Models in Autonomous Driving",
+      "citations": null,
+      "semantic_scholar": null
+    },
+    {
+      "id": "2026-gm-skip",
+      "title": "GM-Skip: Metric-Guided Transformer Block Skipping for Efficient Vision-Language Models",
+      "citations": null,
+      "semantic_scholar": null
+    },
+    {
+      "id": "2025-modeseq",
+      "title": "ModeSeq: Taming Sparse Multimodal Motion Prediction with Sequential Mode Modeling",
+      "citations": null,
+      "semantic_scholar": null
+    },
+    {
+      "id": "2025-ccs",
+      "title": "Asymmetry Vulnerability and Physical Attacks on Online Map Construction for Autonomous Driving",
+      "citations": null,
+      "semantic_scholar": null
+    },
+    {
+      "id": "2024-ralad",
+      "title": "RALAD: Bridging the Real-to-Sim Domain Gap in Autonomous Driving with Retrieval-Augmented Learning",
+      "citations": null,
+      "semantic_scholar": null
+    },
+    {
+      "id": "2024-behaviorgpt",
+      "title": "BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction",
+      "citations": 75,
+      "semantic_scholar": {
+        "paper_id": "685983c3d4348af2e130b71ac8f843526b311959",
+        "external_ids": {
+          "ArXiv": "2405.17372",
+          "DBLP": "conf/nips/ZhouH0WG0LHX24",
+          "DOI": "10.48550/arXiv.2405.17372",
+          "CorpusId": 270063375
+        }
+      }
+    }
+  ]
 }
