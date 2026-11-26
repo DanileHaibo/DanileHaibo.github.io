@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T07:03:58.407Z",
-  "total_citations": 75,
+  "generated_at": "2026-11-26T07:51:35.868Z",
+  "total_citations": 103,
   "papers": [
     {
       "id": "2026-sparsity",
@@ -35,14 +35,30 @@
     {
       "id": "2025-modeseq",
       "title": "ModeSeq: Taming Sparse Multimodal Motion Prediction with Sequential Mode Modeling",
-      "citations": null,
-      "semantic_scholar": null
+      "citations": 22,
+      "semantic_scholar": {
+        "paper_id": "2e3c80e7461bfdb2c14347f4149b8817009477ac",
+        "external_ids": {
+          "DBLP": "journals/corr/abs-2411-11911",
+          "ArXiv": "2411.11911",
+          "DOI": "10.1109/CVPR52734.2025.00158",
+          "CorpusId": 274141194
+        }
+      }
     },
     {
       "id": "2025-ccs",
       "title": "Asymmetry Vulnerability and Physical Attacks on Online Map Construction for Autonomous Driving",
-      "citations": null,
-      "semantic_scholar": null
+      "citations": 5,
+      "semantic_scholar": {
+        "paper_id": "f8b1c9b0738e9b3dc06260360ed548711fad8580",
+        "external_ids": {
+          "ArXiv": "2509.06071",
+          "DBLP": "journals/corr/abs-2509-06071",
+          "DOI": "10.1145/3719027.3765092",
+          "CorpusId": 281203346
+        }
+      }
     },
     {
       "id": "2024-ralad",
@@ -53,7 +69,7 @@
     {
       "id": "2024-behaviorgpt",
       "title": "BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction",
-      "citations": 75,
+      "citations": 76,
       "semantic_scholar": {
         "paper_id": "685983c3d4348af2e130b71ac8f843526b311959",
         "external_ids": {
