@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T07:51:35.868Z",
-  "total_citations": 103,
+  "generated_at": "2026-11-28T07:21:15.295Z",
+  "total_citations": 106,
   "papers": [
     {
       "id": "2026-sparsity",
@@ -23,8 +23,16 @@
     {
       "id": "2026-nav-ee",
       "title": "Nav-EE: Navigation-Guided Early Exiting for Efficient Vision-Language Models in Autonomous Driving",
-      "citations": null,
-      "semantic_scholar": null
+      "citations": 3,
+      "semantic_scholar": {
+        "paper_id": "97228522c1da9880235b451351103b054b8620f9",
+        "external_ids": {
+          "DBLP": "conf/rtcsa/HuHWCWGX26",
+          "ArXiv": "2510.01795",
+          "DOI": "10.1109/RTCSA71153.2026.00019",
+          "CorpusId": 281725049
+        }
+      }
     },
     {
       "id": "2026-gm-skip",
